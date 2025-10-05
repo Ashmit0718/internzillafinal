@@ -1,0 +1,16 @@
+com\internzilla\internzilla\security\JwtUtil.class
+com\internzilla\internzilla\repository\UserRepository.class
+com\internzilla\internzilla\dto\RegisterRequest.class
+com\internzilla\internzilla\security\JwtRequestFilter.class
+com\internzilla\internzilla\security\UserDetailsServiceImpl.class
+com\internzilla\internzilla\InternzillaApplication.class
+com\internzilla\internzilla\security\SecurityConfig.class
+com\internzilla\internzilla\dto\AuthRequest.class
+com\internzilla\internzilla\dto\AuthResponse.class
+com\internzilla\internzilla\model\User$Role.class
+com\internzilla\internzilla\repository\InternshipRepository.class
+com\internzilla\internzilla\model\Internship$InternshipType.class
+com\internzilla\internzilla\controller\AuthController.class
+com\internzilla\internzilla\model\Internship.class
+com\internzilla\internzilla\model\User.class
+com\internzilla\internzilla\service\InternshipService.class
