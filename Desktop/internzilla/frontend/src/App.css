@@ -4,7 +4,7 @@
   --primary-hover: #6366f1;
   --secondary-color: #c4b5fd;
   --accent-color: #22d3ee;
-  --background-color: #0f172a;
+  --background-color: #192850;
   --card-background: #1e293b;
   --text-color: #f1f5f9;
   --text-light: #94a3b8;
@@ -29,7 +29,7 @@ body {
   background: var(--gradient-bg);
   color: var(--text-color);
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
   min-height: 100vh;
 }
 
@@ -222,7 +222,8 @@ body > * {
   border-radius: 0.5rem;
   transition: all 0.3s ease;
 }
-.toggle-auth-button:hover { 
+.toggle-auth-button:hover 
+{ 
   background-color: rgba(129, 140, 248, 0.1);
 }
 .error-message { 
@@ -315,7 +316,8 @@ body > * {
   color: var(--text-light); 
   line-height: 1.6; 
 }
-.form-card { 
+.form-card 
+{ 
   max-width: 800px; 
   margin: 0 auto; 
   width: 100%;

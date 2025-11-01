@@ -2,7 +2,6 @@ package com.internzilla.internzilla.model;
 
 import jakarta.persistence.*;
 
-
 @Entity
 @Table(name = "users")
 public class User {
@@ -27,6 +26,9 @@ public class User {
     @Enumerated(EnumType.STRING)
     @Column(nullable=false)
     private Role role;
+
+    @Column(name = "reset_token")
+    private String resetToken;
 
     // Constructors, getters, setters
 
@@ -68,5 +70,13 @@ public class User {
 
     public void setRole(Role role) {
         this.role = role;
+    }
+
+    public String getResetToken() {
+        return resetToken;
+    }
+
+    public void setResetToken(String resetToken) {
+        this.resetToken = resetToken;
     }
 }

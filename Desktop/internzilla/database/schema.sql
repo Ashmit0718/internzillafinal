@@ -9,7 +9,8 @@ CREATE TABLE users (
     email VARCHAR(255) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL,
     role VARCHAR(50) NOT NULL,
-    full_name VARCHAR(255) NOT NULL
+    full_name VARCHAR(255) NOT NULL,
+    reset_token VARCHAR(255)
 );
 
 -- Create the student_profiles table
@@ -55,7 +56,6 @@ INSERT INTO users (email, password, role, full_name)
 SELECT 'admin@internzilla.com', 'admin', 'ADMIN', 'Admin'
 WHERE NOT EXISTS (SELECT * FROM users WHERE email='admin@internzilla.com');
 
-select * from users;
-DELETE FROM users WHERE email = 'admin@internzilla.com';
+
 
 
